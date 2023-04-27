@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #050515;
+        }
+    </style>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="./Stylesheets/header.css" />
+    <link rel="stylesheet" href="./Stylesheets/scrollBar.css" />
+    <link rel="stylesheet" href="./Stylesheets/aboutMe.css" />
+    <link rel="stylesheet" href="./Stylesheets/projects.css" />
+    <link rel="stylesheet" href="./Stylesheets/contactMe.css" />
+</head>
+<body>
+
+    <!-- Scroll/Page Position Indicator -->
+    <div class="scrollPosContainer">
+        <ul id="scrollPosList">
+            <li class="active">00</li>
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+            <li>04</li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Background SVG Graphic -->
+        <img class="bgGraphic" src="./Graphics/layered-waves-haikei3.png" />
+
+        <!-- Right Column -->
+        <div class="headerItem right">
+            <!-- Text -->
+            <div class="text">
+                <h1>Web Developer</h1> 
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit atque inventore, aperiam commodi aut unde ut deserunt sapiente deleniti iure in officiis accusantium possimus, molestiae eum numquam. Autem, voluptas consequuntur?
+                </p>
+                <a href="#aboutMeAnchor" class="link">About Me </a>
+            </div>
+
+        </div>
+
+        <!-- Left Column -->
+        <div class="headerItem left">
+            <!-- Contact Button -->
+            <button id="contactMe"> Contact Me </button>
+                
+            <!-- 3D Graphic-->
+            <img class="graphic" src="./Graphics/webdevbanner.jpg" />
+
+        </div>
+    </header>
+
+
+
+    <div class="aboutMeContainer" id="aboutMeAnchor">
+        <h1>About me page</h1>
+    </div>
+
+
+    <div class="projectsContainer">
+        <h1>Projects Page</h1>
+    </div>
+
+
+    <div class="contactMeContainer">
+        <h1>Contact Me Page</h1>
+    </div>
+
+
+
+
+    <!-- Scroll Bar Script -->
+    <script src="./Scripts/scrollBar.js"></script>
+</body>
+</html>
